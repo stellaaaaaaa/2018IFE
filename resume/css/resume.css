@@ -2,104 +2,59 @@ body{
   font-family:sans-serif;
   font-size:14px;
 }
-.outter{
-  margin:0;
-  padding:0px;
-}
-.inner{
+.cv{
+  width:50vw;
+  height: auto;
   border:1px solid black;
-  width:1000px;
-  height:1200px;
-  margin:0px;
-  padding:80px;
-  
+  margin:0 auto;
+  padding:20px 50px;
 }
-div.none{
-  height:50px;
+header h1{
+  color:#24435F;
 }
-div.bottom-line{
-  border-bottom:1px solid black;
+.row{
+  display: flex;
 }
-span.name{ 
-  font-size:36px;
-  color:#00F;
-  padding-right:70%;
-  
+img.icon{
+
+  vertical-align:middle;
 }
-span.phone{
-  padding:0 30%;
+.header-info{
+  width:20vw;
+  min-width: 240px;
+  margin: 5px 5px;
 }
-span.email{
-  padding-left:7%;
+.header-info span{
+  margin:0px 10px;
 }
-div.phone{
-  height:50px;
-  clear:both;
+.cv-section{
+  font-size:1.2em;
+  color: #24435F;
+  margin:10px 0px 5px 0px;
+  font-weight: bold;
 }
-span.brief{
-  font-size:20px;
-  background-color:black;
-  color:white;
-  padding:5px 20px 0px 5px;  
+hr{
+  margin:0px 0px;
 }
-div.ed-content{
-  padding-top:10px;
-  
+.section-row{
+  margin:10px 0px;
+  display: flex;
+  justify-content: space-between;
 }
-span.date{
+.content-row {
+  margin:5px 0px;
 }
-span.school{
-  padding-left:20px;
-  font-size:18px;
-  color:green;
-  font-weight:bold;
-}
-span.major{
-  padding-left:200px;
-  
-  font-weight:bold;
-}
-span.edu{
-  padding-left:290px;
-  font-weight:bold;
- 
-  
-}
-.ed-dot{
-  margin:10px 5px 50px 140px;
-  color:green;
-  font-weight:bold;
-}
-span.detail1{
-  margin-left:50px;
-}
-span.detail2{
-  margin-left:30px;
-}
-span.detail3{
-  margin-left:30px;
-}
-div.ed-detail{
-  margin:0 5px;
-}
-div.dev-detail{
+.dot{
+  color: #24435F;
+  font-weight: bold;
   margin:5px 10px;
 }
-span.company{
-  margin:10px 20px;
-  color:green;
-  
+.content-row span{
+  margin-right: 20px 0px;
 }
-span.resp{
-  margin:10px 10px 10px 10px;
-  font-weight:bold;
-  float:right;
+label{
+  margin:5px 20px 5px 0px;
 }
-span.dev-dot,span.paper-dot{
-  padding:0px 5px 0px  150px;
-  font-weight:bold;
-  color:green;
-}
-span.paper-detail,span.collage-detail{
+.date{
   margin:5px 10px;
 }
